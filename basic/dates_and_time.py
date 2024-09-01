@@ -12,3 +12,7 @@ print(data)
 # adiciona ou subtrai dias, horas...
 futuro = agora + timedelta(days=2)
 print(futuro)
+
+# Formatando datas
+formatando = agora.strftime("%d/%m/%y %H:%M:%S")
+print(formatando)
